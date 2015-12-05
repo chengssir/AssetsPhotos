@@ -1,0 +1,6 @@
+framework module AssetsPhotos {
+  umbrella header "AssetsPhotos.h"
+
+  export *
+  module * { export * }
+}

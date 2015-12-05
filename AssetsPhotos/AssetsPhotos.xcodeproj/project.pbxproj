@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		301B07371C12F978003436DA /* AssetsPhotosAgg */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 301B07381C12F978003436DA /* Build configuration list for PBXAggregateTarget "AssetsPhotosAgg" */;
+			buildPhases = (
+				301B073B1C12F97E003436DA /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = AssetsPhotosAgg;
+			productName = AssetsPhotosAgg;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		301B07051C12F72D003436DA /* AssetsPhotos.h in Headers */ = {isa = PBXBuildFile; fileRef = 301B07041C12F72D003436DA /* AssetsPhotos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		301B07291C12F742003436DA /* TNCAlbumViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 301B071B1C12F742003436DA /* TNCAlbumViewController.h */; settings = {ASSET_TAGS = (); }; };
+		301B072A1C12F742003436DA /* TNCAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B071C1C12F742003436DA /* TNCAlbumViewController.m */; settings = {ASSET_TAGS = (); }; };
+		301B072B1C12F742003436DA /* TNCAssetCheckMarkView.h in Headers */ = {isa = PBXBuildFile; fileRef = 301B071D1C12F742003436DA /* TNCAssetCheckMarkView.h */; settings = {ASSET_TAGS = (); }; };
+		301B072C1C12F742003436DA /* TNCAssetCheckMarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B071E1C12F742003436DA /* TNCAssetCheckMarkView.m */; settings = {ASSET_TAGS = (); }; };
+		301B072D1C12F742003436DA /* TNCAssetCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 301B071F1C12F742003436DA /* TNCAssetCollectionViewCell.h */; settings = {ASSET_TAGS = (); }; };
+		301B072E1C12F742003436DA /* TNCAssetCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B07201C12F742003436DA /* TNCAssetCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		301B072F1C12F742003436DA /* TNCAssetOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 301B07211C12F742003436DA /* TNCAssetOverlayView.h */; settings = {ASSET_TAGS = (); }; };
+		301B07301C12F742003436DA /* TNCAssetOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B07221C12F742003436DA /* TNCAssetOverlayView.m */; settings = {ASSET_TAGS = (); }; };
+		301B07311C12F742003436DA /* TNCAssetsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 301B07231C12F742003436DA /* TNCAssetsViewController.h */; settings = {ASSET_TAGS = (); }; };
+		301B07321C12F742003436DA /* TNCAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B07241C12F742003436DA /* TNCAssetsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		301B07331C12F742003436DA /* TNCImagePickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 301B07251C12F742003436DA /* TNCImagePickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		301B07341C12F742003436DA /* TNCImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B07261C12F742003436DA /* TNCImagePickerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		301B07351C12F742003436DA /* TNNImagePickerGroupCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 301B07271C12F742003436DA /* TNNImagePickerGroupCell.h */; settings = {ASSET_TAGS = (); }; };
+		301B07361C12F742003436DA /* TNNImagePickerGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B07281C12F742003436DA /* TNNImagePickerGroupCell.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		301B07011C12F72D003436DA /* AssetsPhotos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AssetsPhotos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		301B07041C12F72D003436DA /* AssetsPhotos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetsPhotos.h; sourceTree = "<group>"; };
+		301B07061C12F72D003436DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		301B07101C12F72D003436DA /* AssetsPhotosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetsPhotosTests.m; sourceTree = "<group>"; };
+		301B07121C12F72D003436DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		301B071B1C12F742003436DA /* TNCAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNCAlbumViewController.h; sourceTree = "<group>"; };
+		301B071C1C12F742003436DA /* TNCAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNCAlbumViewController.m; sourceTree = "<group>"; };
+		301B071D1C12F742003436DA /* TNCAssetCheckMarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNCAssetCheckMarkView.h; sourceTree = "<group>"; };
+		301B071E1C12F742003436DA /* TNCAssetCheckMarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNCAssetCheckMarkView.m; sourceTree = "<group>"; };
+		301B071F1C12F742003436DA /* TNCAssetCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNCAssetCollectionViewCell.h; sourceTree = "<group>"; };
+		301B07201C12F742003436DA /* TNCAssetCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNCAssetCollectionViewCell.m; sourceTree = "<group>"; };
+		301B07211C12F742003436DA /* TNCAssetOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNCAssetOverlayView.h; sourceTree = "<group>"; };
+		301B07221C12F742003436DA /* TNCAssetOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNCAssetOverlayView.m; sourceTree = "<group>"; };
+		301B07231C12F742003436DA /* TNCAssetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNCAssetsViewController.h; sourceTree = "<group>"; };
+		301B07241C12F742003436DA /* TNCAssetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNCAssetsViewController.m; sourceTree = "<group>"; };
+		301B07251C12F742003436DA /* TNCImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNCImagePickerViewController.h; sourceTree = "<group>"; };
+		301B07261C12F742003436DA /* TNCImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNCImagePickerViewController.m; sourceTree = "<group>"; };
+		301B07271C12F742003436DA /* TNNImagePickerGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNNImagePickerGroupCell.h; sourceTree = "<group>"; };
+		301B07281C12F742003436DA /* TNNImagePickerGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNNImagePickerGroupCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		301B06FD1C12F72D003436DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		301B06F71C12F72D003436DA = {
+			isa = PBXGroup;
+			children = (
+				301B07031C12F72D003436DA /* AssetsPhotos */,
+				301B070F1C12F72D003436DA /* AssetsPhotosTests */,
+				301B07021C12F72D003436DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		301B07021C12F72D003436DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301B07011C12F72D003436DA /* AssetsPhotos.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		301B07031C12F72D003436DA /* AssetsPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				301B07041C12F72D003436DA /* AssetsPhotos.h */,
+				301B07061C12F72D003436DA /* Info.plist */,
+				301B071B1C12F742003436DA /* TNCAlbumViewController.h */,
+				301B071C1C12F742003436DA /* TNCAlbumViewController.m */,
+				301B071D1C12F742003436DA /* TNCAssetCheckMarkView.h */,
+				301B071E1C12F742003436DA /* TNCAssetCheckMarkView.m */,
+				301B071F1C12F742003436DA /* TNCAssetCollectionViewCell.h */,
+				301B07201C12F742003436DA /* TNCAssetCollectionViewCell.m */,
+				301B07211C12F742003436DA /* TNCAssetOverlayView.h */,
+				301B07221C12F742003436DA /* TNCAssetOverlayView.m */,
+				301B07231C12F742003436DA /* TNCAssetsViewController.h */,
+				301B07241C12F742003436DA /* TNCAssetsViewController.m */,
+				301B07251C12F742003436DA /* TNCImagePickerViewController.h */,
+				301B07261C12F742003436DA /* TNCImagePickerViewController.m */,
+				301B07271C12F742003436DA /* TNNImagePickerGroupCell.h */,
+				301B07281C12F742003436DA /* TNNImagePickerGroupCell.m */,
+			);
+			path = AssetsPhotos;
+			sourceTree = "<group>";
+		};
+		301B070F1C12F72D003436DA /* AssetsPhotosTests */ = {
+			isa = PBXGroup;
+			children = (
+				301B07101C12F72D003436DA /* AssetsPhotosTests.m */,
+				301B07121C12F72D003436DA /* Info.plist */,
+			);
+			path = AssetsPhotosTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		301B06FE1C12F72D003436DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301B07311C12F742003436DA /* TNCAssetsViewController.h in Headers */,
+				301B07331C12F742003436DA /* TNCImagePickerViewController.h in Headers */,
+				301B07051C12F72D003436DA /* AssetsPhotos.h in Headers */,
+				301B072B1C12F742003436DA /* TNCAssetCheckMarkView.h in Headers */,
+				301B072D1C12F742003436DA /* TNCAssetCollectionViewCell.h in Headers */,
+				301B07291C12F742003436DA /* TNCAlbumViewController.h in Headers */,
+				301B07351C12F742003436DA /* TNNImagePickerGroupCell.h in Headers */,
+				301B072F1C12F742003436DA /* TNCAssetOverlayView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		301B07001C12F72D003436DA /* AssetsPhotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301B07151C12F72D003436DA /* Build configuration list for PBXNativeTarget "AssetsPhotos" */;
+			buildPhases = (
+				301B06FC1C12F72D003436DA /* Sources */,
+				301B06FD1C12F72D003436DA /* Frameworks */,
+				301B06FE1C12F72D003436DA /* Headers */,
+				301B06FF1C12F72D003436DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssetsPhotos;
+			productName = AssetsPhotos;
+			productReference = 301B07011C12F72D003436DA /* AssetsPhotos.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		301B06F81C12F72D003436DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = chengs;
+				TargetAttributes = {
+					301B07001C12F72D003436DA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					301B07371C12F978003436DA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 301B06FB1C12F72D003436DA /* Build configuration list for PBXProject "AssetsPhotos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 301B06F71C12F72D003436DA;
+			productRefGroup = 301B07021C12F72D003436DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				301B07001C12F72D003436DA /* AssetsPhotos */,
+				301B07371C12F978003436DA /* AssetsPhotosAgg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		301B06FF1C12F72D003436DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		301B073B1C12F97E003436DA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\nFMK_NAME=${PROJECT_NAME}\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/../Products/${FMK_NAME}.framework\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\nrm -r \"${WRK_DIR}\"\nopen \"${INSTALL_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		301B06FC1C12F72D003436DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301B07321C12F742003436DA /* TNCAssetsViewController.m in Sources */,
+				301B072A1C12F742003436DA /* TNCAlbumViewController.m in Sources */,
+				301B07341C12F742003436DA /* TNCImagePickerViewController.m in Sources */,
+				301B072E1C12F742003436DA /* TNCAssetCollectionViewCell.m in Sources */,
+				301B07301C12F742003436DA /* TNCAssetOverlayView.m in Sources */,
+				301B072C1C12F742003436DA /* TNCAssetCheckMarkView.m in Sources */,
+				301B07361C12F742003436DA /* TNNImagePickerGroupCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		301B07131C12F72D003436DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		301B07141C12F72D003436DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		301B07161C12F72D003436DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AssetsPhotos/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuai.AssetsPhotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		301B07171C12F72D003436DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AssetsPhotos/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuai.AssetsPhotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		301B07391C12F978003436DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		301B073A1C12F978003436DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		301B06FB1C12F72D003436DA /* Build configuration list for PBXProject "AssetsPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301B07131C12F72D003436DA /* Debug */,
+				301B07141C12F72D003436DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		301B07151C12F72D003436DA /* Build configuration list for PBXNativeTarget "AssetsPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301B07161C12F72D003436DA /* Debug */,
+				301B07171C12F72D003436DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		301B07381C12F978003436DA /* Build configuration list for PBXAggregateTarget "AssetsPhotosAgg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301B07391C12F978003436DA /* Debug */,
+				301B073A1C12F978003436DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 301B06F81C12F72D003436DA /* Project object */;
+}
